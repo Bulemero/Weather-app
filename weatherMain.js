@@ -23,7 +23,8 @@ var weatherVueObject = new Vue({
                     // Work with JSON data here
                     console.log(data);
                     this.cities = data.list;
-                    //                this.myVueObject.books = data.books;
+                    console.log(this.cities);
+
 
 
                 }).catch(err => {
